@@ -15,7 +15,7 @@ SEPARATOR = "<SEPARATOR>"
 class peerMain:
     def __init__(self):
         # initialisation
-        self.registryName = '192.168.43.239' #input("Enter registry's IP address: ")
+        self.registryName = input("Enter registry's IP address: ")
         self.registryPort = 15600
         # registry connection : tcp socket
         self.client_tcpsocket = socket(AF_INET, SOCK_STREAM)
