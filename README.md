@@ -12,11 +12,12 @@ Once installed, run MongoDB compass and connect the database, so that you can an
 * stdiomask </br>
 * select</br>
 # After downloading and setting up:</br>
-To set up our Mini-Whatsapp, we first need to start up the main server (registry.py). Simply run the following command:
-` python registry.py `
+To set up our Mini-Whatsapp, we first need to start up the main server (registry.py). </br>
+Simply run the following command:</br>
+` python registry.py ` </br>
 Now the user can start using Mini-Whatsapp by starting the chat program (peer.py) using the following command.<br/>
-` python peer.py
-
+` python peer.py ` </br>
+</br>
 Note: The peer connects to the registry using its IP address which will be displayed on the registry side. Also it can be hard-coded if convenient.
 # Main features:
 There are many features that have been packed into this application. Namely:
