@@ -6,11 +6,11 @@ git clone the repository</br>
 You need to do setup to fulfill requirements:</br>
 Its installation process can be seen here : [Link](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-windows/)</br>
 Once installed, run MongoDB compass and connect the database, so that you can analyse the database as the application is run.</br>
-##Some of the python libraries required are :</br>
-*threading </br>
-*pymongo</br>
-*stdiomask </br>
-*select</br>
+## Some of the python libraries required are :</br>
+* threading </br>
+* pymongo</br>
+* stdiomask </br>
+* select</br>
 # After downloading and setting up:</br>
 To set up our Mini-Whatsapp, we first need to start up the main server (registry.py). Simply run the following command:
 ` python registry.py `
