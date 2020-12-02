@@ -25,7 +25,9 @@ There are many features that have been packed into this application. Namely:
 2. Login: Log into Mini-Whatsapp using the account created previously. You will have to provide a username and password to login. You also need to specify the port that you should use to start the peer client (More details in the ‘Communication and Connection Maintenance’ section). Password is masked for the purpose of security.
 3. Logout: Logout from your current session of Mini-Whatsapp. You will then exit the application.
 4. Search: Search for a particular user using their username.
-5. Start Chat: Using the username of a user you can send a request to the user to start a chat session with them. On the receiver-side the user will receive a chat request pop-up where they must type “OK” to start the chat. There is also another option of “OK-SAVE” which the user can choose to save the chat messages.
+5. Start Chat: Using the username of a user you can send a request to the user to start a chat session with them. On the receiver-side the user will receive a chat request pop-up where they must type “OK” to start the chat. There is also another option of “OK-SAVE” which the user can choose to save the chat messages. Using ":q" we can quit the chat. ":f" flag during the chat is used for file sharing. 
 6. Change Status: The user can change their status using this command. The user will have a default status (a description in text). He/She can choose to change the status if he/she wishes to do so.
 7. See Status: The user can view the status of any user by entering the username of the user. 
-8. Start Group Chat: The user can also create a group chat with any number of users. The port for the group chat server must also be specified. The user will be able to add the users by entering their names and sending requests to each user.
+8. Start Group Chat: The user can also create a group chat with any number of users. The port for the group chat server must also be specified. The user will be able to add the users by entering their names and sending requests to each user. "OK-GROUP-portno." is the message to be sent by acceptor. Group chat can be exited using "QUIT"command. </br>
+
+For more details : see the report.
