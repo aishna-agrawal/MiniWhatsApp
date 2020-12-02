@@ -7,15 +7,15 @@ You need to do setup to fulfill requirements:</br>
 Its installation process can be seen here : [Link](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-windows/)</br>
 Once installed, run MongoDB compass and connect the database, so that you can analyse the database as the application is run.</br>
 Some of the python libraries required are :</br>
-threading </br>
-pymongo</br>
-stdiomask </br>
-select</br>
+*threading </br>
+*pymongo</br>
+*stdiomask </br>
+*select</br>
 # After downloading and setting up:</br>
 To set up our Mini-Whatsapp, we first need to start up the main server (registry.py). Simply run the following command:
-# ` python registry.py
+` python registry.py `
 Now the user can start using Mini-Whatsapp by starting the chat program (peer.py) using the following command.<br/>
-# ` python peer.py
+` python peer.py
 
 Note: The peer connects to the registry using its IP address which will be displayed on the registry side. Also it can be hard-coded if convenient.
 # Main features:
